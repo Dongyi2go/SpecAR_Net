@@ -1,6 +1,8 @@
 # SpecAR-Net
 This repository contains the official implementation for the paper [SpecAR-Net: Spectrogram Analysis and Representation Network for Time Series](https:xxx) (IJCAI-24).
 
+## Framework
+
 ## Requirements
 
 The recommended requirements for SpecAR-Net are specified as follows:
@@ -59,11 +61,11 @@ bash ./scripts/classification/SpecAR_Net.sh
 If you find this repo useful, please cite our paper.
 
 ```
-@inproceedings{wu2024SpecAR_Net,
+@inproceedings{SpecAR2024,
   title={SpecAR_Net: Temporal 2D-Variation Modeling for General Time Series Analysis},
-  author={Haixu Wu and Tengge Hu and Yong Liu and Hang Zhou and Jianmin Wang and Mingsheng Long},
-  booktitle={International Conference on Learning Representations},
-  year={2023},
+  author={Yi Dong and Liwen Zhang and Youcheng Zhang and Wen Chen and Shi Peng and Zhe Ma},
+  booktitle={International Joint Conference on Artificial Intelligence},
+  year={2024},
 }
 ```
 
@@ -78,9 +80,4 @@ Or describe it in Issues.
 
 
 
-# SpecAR_Net
-# SpecAR_Net
-# SpecAR_Net
-# SpecAR_Net
-# SpecAR_Net
-# SpecAR_Net
+## Acknowledgement
