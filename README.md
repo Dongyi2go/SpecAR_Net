@@ -62,7 +62,7 @@ If you find this repo useful, please cite our paper.
 
 ```
 @inproceedings{SpecAR2024,
-  title={SpecAR_Net: Temporal 2D-Variation Modeling for General Time Series Analysis},
+  title={SpecAR_Net: Spectrogram Analysis and Representation Network for Time Series},
   author={Yi Dong and Liwen Zhang and Youcheng Zhang and Wen Chen and Shi Peng and Zhe Ma},
   booktitle={International Joint Conference on Artificial Intelligence},
   year={2024},
