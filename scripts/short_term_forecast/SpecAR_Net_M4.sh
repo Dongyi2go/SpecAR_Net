@@ -1,0 +1,161 @@
+export CUDA_VISIBLE_DEVICES=0
+
+model_name=SpecAR_Net
+
+python -u run.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Yearly' \
+  --model_id m4_Yearly \
+  --model $model_name \
+  --data m4 \
+  --features M \
+  --e_layers 1 \
+  --conv_layers 6 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --batch_size 128 \
+  --d_model 32 \
+  --d_ff 32 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --train_epochs 20 \
+  --loss 'SMAPE' \
+  --logdir 'tensorboard/short'
+
+python -u run.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Quarterly' \
+  --model_id m4_Quarterly \
+  --model $model_name \
+  --data m4 \
+  --features M \
+  --e_layers 1 \
+  --conv_layers 6 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --batch_size 128 \
+  --d_model 64 \
+  --d_ff 64 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --patience 10 \
+  --train_epochs 20 \
+  --loss 'SMAPE' \
+  --logdir 'tensorboard/short'
+
+python -u run.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Monthly' \
+  --model_id m4_Monthly \
+  --model $model_name \
+  --data m4 \
+  --features M \
+  --e_layers 1 \
+  --conv_layers 6 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --batch_size 128 \
+  --d_model 64 \
+  --d_ff 64 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --train_epochs 20 \
+  --loss 'SMAPE' \
+  --logdir 'tensorboard/short'
+
+python -u run.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Weekly' \
+  --model_id m4_Weekly \
+  --model $model_name \
+  --data m4 \
+  --features M \
+  --e_layers 2 \
+  --conv_layers 3 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --batch_size 16 \
+  --d_model 32 \
+  --d_ff 32 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --train_epochs 20 \
+  --loss 'SMAPE' \
+  --logdir 'tensorboard/short'
+
+python -u run.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Daily' \
+  --model_id m4_Daily \
+  --model $model_name \
+  --data m4 \
+  --features M \
+  --e_layers 2 \
+  --conv_layers 3 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --batch_size 16 \
+  --d_model 16 \
+  --d_ff 16 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --train_epochs 20 \
+  --loss 'SMAPE' \
+  --logdir 'tensorboard/short'
+
+python -u run.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Hourly' \
+  --model_id m4__Hourly \
+  --model $model_name \
+  --data m4 \
+  --features M \
+  --e_layers 2 \
+  --conv_layers 3 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --batch_size 16 \
+  --d_model 32 \
+  --d_ff 32 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --train_epochs 20 \
+  --loss 'SMAPE' \
+  --logdir 'tensorboard/short'
+
