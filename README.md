@@ -74,7 +74,7 @@ If you have any questions or suggestions, feel free to contact:
 
 - Yi dong (dongyi0552@126.com) 
 - Liwen Zhang (lwzhang9161@126.com) 
-- Youcheng zhang (youcheng17@163.com)
+- Youcheng Zhang (youcheng17@163.com)
 
 Or describe it in Issues.
 
