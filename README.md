@@ -81,4 +81,4 @@ Or describe it in Issues.
 
 
 ## Acknowledgement
-The code for SpecAR-Net is based on the modification of the TimesNet. 
+We appreciate this github repos: https://github.com/thuml/TimesNet. 
