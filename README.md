@@ -42,8 +42,8 @@ pip install -r requirements.txt
 
 ## Data
 Prepare Data. You can obtain the well pre-processed datasets from
-i. [[Google Drive]] (https://drive.google.com/file/d/1nrXwdI4kyDUYKBj3ecRDZ2T-azh9i0JU/view?usp=sharing) or 
-ii. [[Baidu Drive]] (link: https://pan.baidu.com/s/1Q2BF1ZezEWPK2nmt5ZbUFg?pwd=uh25) 
+- [[Google Drive]] (https://drive.google.com/file/d/1nrXwdI4kyDUYKBj3ecRDZ2T-azh9i0JU/view?usp=sharing) or
+- [[Baidu Drive]] (link: https://pan.baidu.com/s/1Q2BF1ZezEWPK2nmt5ZbUFg?pwd=uh25) 
 
 Then place the downloaded data in the folder`./dataset`. Here is a summary of supported datasets.
 
