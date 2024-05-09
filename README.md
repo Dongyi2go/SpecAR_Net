@@ -1,7 +1,21 @@
 # SpecAR-Net
 This repository contains the official implementation for the paper [SpecAR-Net: Spectrogram Analysis and Representation Network for Time Series](https:xxx) (IJCAI-24).
 
-## Framework
+## Paper Info
+
+![teaser_schema](./images/SpecAR-Net.png)
+
+[SpecAR-Net: Spectrogram Analysis and Representation Network for Time Series], IJCAI 2024, accepted.
+
+Main contributors: [Yi Dong](https://github.com/Dongyi2go) [Liwen Zhang](https://github.com/zlw9161), Youcheng Zhang
+
+This repository groups the implemetations of SpecAR-Net and Appendix of the paper.
+
+![Time-Frequency Transform](./images/TFT.png)
+
+![SoTA Comparison-1](./images/specar-res1.png)
+
+![SoTA Comparison-2](./images/specar-res2.png)
 
 ## Requirements
 
